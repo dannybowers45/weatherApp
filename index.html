@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <section class="input-part">
+            <p class="info-txt"></p>
+            <div class="content">
+              <input type="text" spellcheck="false" placeholder="Enter city name" required>
+              <div class="separator"></div>
+              <button>Get Current Location</button>
+            </div>
+        </section>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="windSpeed-value">
+                <p>≈- <span>M/S</span></p>
+            </div>
+            <div class="sunrise-value">
+                <p>sunrise time</p>
+            </div>
+            <div class="sunset-value">
+                <p>sunset time</p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

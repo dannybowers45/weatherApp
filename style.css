@@ -1,0 +1,268 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #06163a;
+}
+
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 20px;
+    padding-bottom : 100px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #020a45;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 380px;
+    background-color: #FFF;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    color: #aabcff;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.windSpeed-value{
+    width: 300px;
+    height: 60px;
+}
+
+.windSpeed-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.windSpeed-value p:hover{
+    color: #aabcff;
+}
+
+.windSpeed-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.windSpeed-value span p:hover{
+    color: #aabcff;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+.topic {
+    width: 300px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .sunrise-value{
+    width: 300px;
+    height: 60px;
+}
+
+.sunrise-value p{
+    padding: 5px;
+    margin: 5px;
+    color: #293251;
+    font-size: 1.75em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sunrise-value p:hover{
+    color: #aabcff;
+}
+
+.sunrise-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.sunset-value{
+    width: 300px;
+    height:60px;
+}
+
+.sunset-value p{
+    padding: 5px;
+    margin: 5px;
+    color: #293251;
+    font-size: 1.75em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sunset-value p:hover{
+    color: #aabcff;
+}
+
+.sunset-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+  .topic p{
+    text-align: center;
+    padding: 15px;
+    margin: auto 0;
+    font-size: 1.2em;
+    color: #293251;
+}
+  .topic p:link{
+    color: #293251;
+  }
+  .topic p:hover{
+    color: #aabcff;
+  }
+  .topic p:active{
+    color: rgb(96, 139, 200)
+  }
+  
+  .wrapper.active header i{
+    margin-left: 5px;
+    font-size: 30px;
+  }
+  .wrapper .input-part{
+    margin: 20px 25px 30px;
+  }
+  .wrapper.active .input-part{
+    display: none;
+  }
+  .input-part .info-txt{
+    display: none;
+    font-size: 17px;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+  }
+  
+  .input-part :where(input, button){
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 7px;
+  }
+  .input-part input{
+    text-align: center;
+    padding: 0 0px;
+    border: 1px solid #ccc;
+  }
+  .input-part input:is(:focus, :valid){
+    border: 2px solid #1d4058;
+  }
+  .input-part input::placeholder{
+    color: #bfbfbf;
+  }
+  .input-part .separator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #ccc;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .separator::before{
+    content: "or";
+    color: #293251;
+    font-size: 19px;
+    padding: 0 15px;
+    background: #fff;
+  }
+  .input-part button{
+    color: #fff;
+    cursor: pointer;
+    background: #06163a;
+    transition: 0.3s ease;
+  }
+  .input-part button:hover{
+    background: #aabcff
+  }
